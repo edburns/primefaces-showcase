@@ -81,9 +81,6 @@
     </context-param>
 
     <listener>
-        <listener-class>org.apache.webbeans.servlet.WebBeansConfigurationListener</listener-class>
-    </listener>
-    <listener>
         <listener-class>${jsfListener}</listener-class>
     </listener>
 
